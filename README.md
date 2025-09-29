@@ -46,12 +46,12 @@ lab10-webapi/
   <li><b>เปิด XAMPP</b><br>Start <code>Apache</code> และ <code>MySQL</code></li>
 
   <li><b>คัดลอกโฟลเดอร์โปรเจ็กต์ไปไว้ใน htdocs</b><br>
-  <code>/Applications/XAMPP/htdocs/lab10-webapi</code> (macOS) <br>
-  หรือ <code>C:\xampp\htdocs\lab10-webapi</code> (Windows)</li>
+  <code>/Applications/XAMPP/htdocs/lab10_webapi</code> (macOS) <br>
+  หรือ <code>C:\xampp\htdocs\lab10_webapi</code> (Windows)</li>
 
   <li><b>นำเข้าฐานข้อมูล</b> ผ่าน <a href="http://localhost/phpmyadmin" target="_blank">phpMyAdmin</a><br>
     - คลิกแท็บ <b>Import</b><br>
-    - เลือกไฟล์ <code>db_mariadb_friendly.sql</code><br>
+    - เลือกไฟล์ <code>db.sql</code><br>
     - กด <b>Go</b><br>
     จะได้ฐานข้อมูลชื่อ <code>lab10_webapi</code> และตาราง <code>products</code> พร้อมข้อมูล 20 แถว
   </li>
